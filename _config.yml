@@ -9,7 +9,7 @@ assets: /assets
 baseurl: 
 
 # pagination
-paginate: 20
+paginate: 5
 
 # Markdown Processors
 markdown: redcarpet
@@ -24,7 +24,7 @@ redcarpet:
     - with_toc_data
     
 
-title : Jekyll Jacman
+title : ontinuous Learning
 tagline: A fresh looking and responsive theme for Jekyll
 
 defaults:
@@ -40,6 +40,8 @@ menu:
   Home: /
   Archives: /archives
   About: /about
+  Categories: /categories
+  Tags: /tags
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -79,7 +81,7 @@ mathjax: false      #enable mathjax if true
 
 #### Author information
 author:
-  name: yitao      ## e.g. wuchong Author name
+  name: codejuan      ## e.g. wuchong Author name
   intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
   intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
@@ -99,7 +101,7 @@ author:
 #### Toc
 toc:
   article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
+  aside: false     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
@@ -112,7 +114,7 @@ links:
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+disqus_shortname:  codejuan   ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
