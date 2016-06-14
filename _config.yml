@@ -12,20 +12,19 @@ baseurl:
 paginate: 5
 
 # Markdown Processors
-
-#highlighter: pygments
-#markdown: redcarpet
-#redcarpet:
-#  extensions:
-#    - hard_wrap
-#    - no_intra_emphasis
-#    - autolink
-#    - strikethrough
-#    - tables
-#    - lax_spacing
-#    - with_toc_data
-highlighter: rouge
-markdown: kramdown
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - tables
+    - lax_spacing
+    - with_toc_data
+#highlighter: rouge
+#markdown: kramdown
 #kramdown:
 #  input: GFM
 #  auto_ids: true
